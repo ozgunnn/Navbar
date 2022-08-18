@@ -9,7 +9,21 @@ body {
   margin: 0;
   background-color: #a3cfcd;
 }
+.card {
+  background-color: bisque;
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  opacity: 0.4;
+  cursor: pointer;
+  background-image: url(https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  transition: transform 1s;
+}
 
+.card:hover {
+  transform: translate(12px, 50%);
+}
 .content {
   display: flex;
   width: 70vw;
